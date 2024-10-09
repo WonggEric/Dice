@@ -20,7 +20,6 @@ void draw()
       d6 = new Die(i,j);
       d6.show();
       sum = sum + d6.rand;
-      System.out.println(sum);
     }
   }
    textSize(25);
