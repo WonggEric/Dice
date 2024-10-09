@@ -15,7 +15,7 @@ void setup() {
 void draw()
 {
   background(255);
-  for(int i = 90;i<=800;i+=125){
+  for(int i = 77;i<=800;i+=125){
     for(int j = 0; j<=500;j+=125){
       d6 = new Die(i,j);
       d6.show();
@@ -27,8 +27,8 @@ void draw()
 }
 void mousePressed()
 {
-  redraw();
   sum = 0;
+  redraw();
   d6.roll();
 }
 class Die //models one single dice cube
